@@ -9,10 +9,10 @@ Selahattin Ali Kılıç : Teknoloji araştırması ve seçimi üzerinde çalış
 Binnur Aslan: Proje analizi ve kapsam tanımı üzerinde çalışıyor.
 Ülkü Tuana Kara: Gereksinim toplama ve belgeleme üzerinde çalışıyor. 
 
-Selahattin Ali Kılıç
+selahattin Ali Kılıç:
 
-tekbolkosadfoldsfgoksdokfds
-.
-.
-..
---------
+gfcvadvlksnjvdaknfskjsfbvnv
+dv
+v
+vvd
+v
