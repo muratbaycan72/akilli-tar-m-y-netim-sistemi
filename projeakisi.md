@@ -229,3 +229,24 @@ Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kull
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
  main
 main
+## 📝 Yapılan Çalışmalar (Ortam Kurulumu)
+
+Bu görev kapsamında, Akıllı Tarım Yönetim Sistemi projesinin geliştirme sürecine başlanabilmesi için gerekli olan geliştirme ortamı hazırlanmıştır.
+
+Öncelikle proje gereksinimleri doğrultusunda kullanılacak teknolojiler belirlenmiş ve kurulmuştur. Bu kapsamda Python ve TensorFlow makine öğrenimi geliştirmeleri için, PostgreSQL veritabanı işlemleri için, MQTT veri iletişimi için ve React ile Node.js web arayüzü geliştirme süreci için kurulmuştur.
+
+Kurulumların ardından proje için temel klasör yapısı oluşturulmuş, backend ve frontend bileşenleri ayrıştırılmış ve gerekli bağımlılıklar yüklenmiştir. Ayrıca proje yapılandırmaları tamamlanarak sistem çalışmaya hazır hale getirilmiştir.
+
+Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitignore dosyası oluşturulmuş ve ilk commit işlemi gerçekleştirilmiştir.
+
+Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.## 📝 Yapılan Çalışmalar (Ortam Kurulumu)
+
+Bu görev kapsamında, Akıllı Tarım Yönetim Sistemi projesinin geliştirme sürecine başlanabilmesi için gerekli olan geliştirme ortamı hazırlanmıştır.
+
+Öncelikle proje gereksinimleri doğrultusunda kullanılacak teknolojiler belirlenmiş ve kurulmuştur. Bu kapsamda Python ve TensorFlow makine öğrenimi geliştirmeleri için, PostgreSQL veritabanı işlemleri için, MQTT veri iletişimi için ve React ile Node.js web arayüzü geliştirme süreci için kurulmuştur.
+
+Kurulumların ardından proje için temel klasör yapısı oluşturulmuş, backend ve frontend bileşenleri ayrıştırılmış ve gerekli bağımlılıklar yüklenmiştir. Ayrıca proje yapılandırmaları tamamlanarak sistem çalışmaya hazır hale getirilmiştir.
+
+Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitignore dosyası oluşturulmuş ve ilk commit işlemi gerçekleştirilmiştir.
+
+Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
