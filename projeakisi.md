@@ -229,6 +229,8 @@ Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kull
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
  main
 main
+
+
 Ömer Akhan:
  Akıllı Tarım Yönetim Sistemi projesinin geliştirme sürecine başlanabilmesi için gerekli olan geliştirme ortamı hazırlanmıştır.
 
