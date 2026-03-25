@@ -227,8 +227,21 @@ Yapılan araştırmalar sonucunda bu proje için aşağıdaki teknoloji yığın
  Web Arayüzü → React 
 Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kullanıcıya sunulması için 
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
- main
-main
+
+Selahattin-Ali-Kılıç
+
+Teknoloji Seçimi Detaylı Analizi ve Uygulama Planı
+
+Maliyet Analizi: Projede değerlendirilen Python, TensorFlow, MQTT, PostgreSQL ve React teknolojilerinin tamamı açık kaynaklıdır. Bu nedenle lisans maliyeti oluşturmamaktadır. Yazılım tarafında ek lisans gideri gerektirmemesi, proje bütçesi açısından önemli bir avantaj sağlamaktadır. Altyapı maliyeti daha çok sensör, sunucu ve ağ bileşenlerinden oluşacak olsa da teknoloji seçimi açısından düşük maliyetli bir yapı ortaya çıkmaktadır.
+
+Performans Analizi: MQTT, düşük bant genişliği kullanarak sensör verilerinin hızlı ve düşük gecikmeli şekilde iletilmesini sağlamaktadır. Python, backend tarafında veri işleme ve sistem mantığının yürütülmesi için yeterli performans sunmaktadır. TensorFlow, sensör verileri üzerinden tahmin ve analiz işlemlerinin gerçekleştirilmesinde güçlü bir yapı sağlamaktadır. PostgreSQL, verilerin güvenilir biçimde saklanması ve sorgulanması için uygun performansa sahiptir. React ise kullanıcı arayüzünde dinamik veri gösterimi açısından yeterli ve verimli bir çözüm sunmaktadır.
+
+Uyumluluk Analizi: Seçilen teknolojiler birbirleriyle yüksek uyumluluk göstermektedir. Python backend sistemi TensorFlow ile doğrudan entegre çalışabilmektedir. MQTT üzerinden alınan sensör verileri Python tarafından işlenip PostgreSQL veritabanına kaydedilebilmektedir. React arayüzü ise backend tarafından sunulan API servisleri ile iletişim kurarak verileri kullanıcıya aktarabilmektedir. Bu durum sistemin katmanları arasında düzenli ve sürdürülebilir bir entegrasyon sağlamaktadır.
+
+Teknoloji Seçimi: Yapılan maliyet, performans ve uyumluluk analizleri sonucunda proje için en uygun teknoloji yığını; backend için Python, makine öğrenmesi için TensorFlow, sensör veri iletişimi için MQTT, veritabanı için PostgreSQL ve kullanıcı arayüzü için React olarak belirlenmiştir.
+
+Uygulama Planı: Sistem içerisinde sensörlerden elde edilen veriler öncelikle MQTT protokolü ile backend katmanına iletilecektir. Python tabanlı backend yapısı bu verileri alacak, işleyecek ve gerekli doğrulama adımlarından geçirecektir. Ardından veriler PostgreSQL veritabanında saklanacaktır. Biriken veriler TensorFlow kullanılarak analiz edilecek ve sulama önerisi, bitki stres analizi, hastalık riski ve verim tahmini gibi çıktılar üretilecektir. Son aşamada tüm veriler ve analiz sonuçları React tabanlı web arayüzü üzerinden kullanıcıya grafikler, bildirimler ve durum ekranları şeklinde sunulacaktır.
+
 
 
 Ömer Akhan:
@@ -251,3 +264,4 @@ Kurulumların ardından proje için temel klasör yapısı oluşturulmuş, backe
 Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitignore dosyası oluşturulmuş ve ilk commit işlemi gerçekleştirilmiştir.
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
+
