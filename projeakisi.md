@@ -21,7 +21,7 @@ Bu hafta ağırlıklı olarak şu 4 temel konuya odaklanıyoruz:
 1. **Diziler (Python Lists):** Veri saklama ve indeksleme mantığı.
 2. **Bağlı Listeler (Linked Lists):** OOP ile `Node` sınıfı oluşturma ve dinamik veri yönetimi.
 3. **Arama Algoritmaları:** Linear Search ve Binary Search.
-4. **Sıralama Algoritmaları:** Bubble Sort ve Insertion Sort.
+4. **Sıralama Algoritmaları:** Bubble Sort ve Insertion Sort. 
 
 ## 📖 Öğrenme Kaynakları
 - Fırat Üniversitesi ders notları ve slaytları.
