@@ -10,6 +10,34 @@ Binnur Aslan: Proje analizi ve kapsam tanımı üzerinde çalışıyor.
 Ülkü Tuana Kara: Gereksinim toplama ve belgeleme üzerinde çalışıyor. 
 
 
+ 
+Murat Baycan :
+# 🚀 Algoritma Alimleri Sprint Planı
+
+## 🎯 Hedef
+Geliştirme ortamımızın (Python) kurulumunun ardından, projemizde kullanacağımız temel veri yapıları ve algoritmaların analizini yapmak ve pratik uygulamalarla temeli sağlamlaştırmak.
+
+## 📚 Odaklanılacak Konular
+Bu hafta ağırlıklı olarak şu 4 temel konuya odaklanıyoruz:
+1. **Diziler (Python Lists):** Veri saklama ve indeksleme mantığı.
+2. **Bağlı Listeler (Linked Lists):** OOP ile `Node` sınıfı oluşturma ve dinamik veri yönetimi.
+3. **Arama Algoritmaları:** Linear Search ve Binary Search.
+4. **Sıralama Algoritmaları:** Bubble Sort ve Insertion Sort. 
+
+## 📖 Öğrenme Kaynakları
+- Fırat Üniversitesi ders notları ve slaytları.
+- *Grokking Algorithms* (Aditya Bhargava) - İlgili bölümler.
+- LeetCode ve HackerRank (Python 3 çözümleri).
+
+## 🛠️ Pratik Uygulama Örnekleri
+- [ ] **Örnek 1:** Fenerbahçe maç istatistiklerini tutan bir liste oluşturup, yazacağımız özel bir *Bubble Sort* fonksiyonu ile sıralamak.
+- [ ] **Örnek 2:** Proje görevlerimizi ekleyip silebileceğimiz, sıfırdan yazılmış bir `LinkedList` yapısı kurgulamak.
+- [ ] **Örnek 3:** İstatistik listesi üzerinde *Binary Search* ile belirli bir veriyi bulma fonksiyonu yazmak.
+
+
+
+*Not: Lütfen kodları yazarken Python standartlarına (PEP 8) uymaya özen gösterelim ve commit mesajlarımızı açıklayıcı yazalım.*
+
 Ülkü Tuanna Kara : 
 Proje konusu ve kapsamı:
 Günümüzde tarım sektöründe su kaynaklarının verimli kullanılması, ürün veriminin artırılması ve çevresel etkilerin azaltılması büyük önem taşımaktadır. Akıllı Tarım Yönetim Sistemi, sensör verileri ve makine öğrenmesi teknolojilerini kullanarak tarımsal üretim süreçlerini daha verimli, sürdürülebilir ve otomatik hale getirmeyi amaçlayan bir yazılım sistemidir. Bu proje,  bahsedilen problemlere teknolojik çözümler sunmayı hedeflemektedir. 
@@ -264,4 +292,5 @@ Kurulumların ardından proje için temel klasör yapısı oluşturulmuş, backe
 Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitignore dosyası oluşturulmuş ve ilk commit işlemi gerçekleştirilmiştir.
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
+ 
 
