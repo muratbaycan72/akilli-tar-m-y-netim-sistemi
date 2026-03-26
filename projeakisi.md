@@ -229,3 +229,20 @@ Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kull
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
  main
 main
+
+Ülkü Tuanna Kara 
+
+Bu diyagram, sistem analiz sürecinde elde edilen gereksinimler doğrultusunda hazırlanmıştır. Amaç, sistemdeki veri akışını, süreçleri ve bileşenler arasındaki etkileşimi görsel olarak göstermektir.
+
+Diyagramda:
+
+* Sensörlerden ve dış kaynaklardan (örneğin hava durumu verileri) alınan verilerin sisteme girişi,
+* Bu verilerin toplanması ve veritabanında saklanması,
+* Analiz süreçlerinden geçirilerek anlamlı hale getirilmesi,
+* Elde edilen sonuçların kullanıcıya (çiftçi/yönetici) sunulması
+
+aşamaları modellenmiştir.
+
+Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşamalarına temel oluşturmak amacıyla hazırlanmıştır.
+
+![Veri Akış Diyagramı](VeriAkısDiyagrami.png)
