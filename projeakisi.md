@@ -132,3 +132,7 @@ Yapılan araştırmalar sonucunda bu proje için aşağıdaki teknoloji yığın
 Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kullanıcıya sunulması için 
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
  main
+
+Binnur Aslan:
+
+[UI/UX Wireframe Tasarımı](./uiuxwireframetasarimi.pdf)
