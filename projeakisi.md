@@ -10,6 +10,34 @@ Binnur Aslan: Proje analizi ve kapsam tanımı üzerinde çalışıyor.
 Ülkü Tuana Kara: Gereksinim toplama ve belgeleme üzerinde çalışıyor. 
 
 
+ 
+Murat Baycan :
+# 🚀 Algoritma Alimleri Sprint Planı
+
+## 🎯 Hedef
+Geliştirme ortamımızın (Python) kurulumunun ardından, projemizde kullanacağımız temel veri yapıları ve algoritmaların analizini yapmak ve pratik uygulamalarla temeli sağlamlaştırmak.
+
+## 📚 Odaklanılacak Konular
+Bu hafta ağırlıklı olarak şu 4 temel konuya odaklanıyoruz:
+1. **Diziler (Python Lists):** Veri saklama ve indeksleme mantığı.
+2. **Bağlı Listeler (Linked Lists):** OOP ile `Node` sınıfı oluşturma ve dinamik veri yönetimi.
+3. **Arama Algoritmaları:** Linear Search ve Binary Search.
+4. **Sıralama Algoritmaları:** Bubble Sort ve Insertion Sort. 
+
+## 📖 Öğrenme Kaynakları
+- Fırat Üniversitesi ders notları ve slaytları.
+- *Grokking Algorithms* (Aditya Bhargava) - İlgili bölümler.
+- LeetCode ve HackerRank (Python 3 çözümleri).
+
+## 🛠️ Pratik Uygulama Örnekleri
+- [ ] **Örnek 1:** Fenerbahçe maç istatistiklerini tutan bir liste oluşturup, yazacağımız özel bir *Bubble Sort* fonksiyonu ile sıralamak.
+- [ ] **Örnek 2:** Proje görevlerimizi ekleyip silebileceğimiz, sıfırdan yazılmış bir `LinkedList` yapısı kurgulamak.
+- [ ] **Örnek 3:** İstatistik listesi üzerinde *Binary Search* ile belirli bir veriyi bulma fonksiyonu yazmak.
+
+
+
+*Not: Lütfen kodları yazarken Python standartlarına (PEP 8) uymaya özen gösterelim ve commit mesajlarımızı açıklayıcı yazalım.*
+
 Ülkü Tuanna Kara : 
 Proje konusu ve kapsamı:
 Günümüzde tarım sektöründe su kaynaklarının verimli kullanılması, ürün veriminin artırılması ve çevresel etkilerin azaltılması büyük önem taşımaktadır. Akıllı Tarım Yönetim Sistemi, sensör verileri ve makine öğrenmesi teknolojilerini kullanarak tarımsal üretim süreçlerini daha verimli, sürdürülebilir ve otomatik hale getirmeyi amaçlayan bir yazılım sistemidir. Bu proje,  bahsedilen problemlere teknolojik çözümler sunmayı hedeflemektedir. 
@@ -227,8 +255,8 @@ Yapılan araştırmalar sonucunda bu proje için aşağıdaki teknoloji yığın
  Web Arayüzü → React 
 Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kullanıcıya sunulması için 
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
- main
-main
+ Ülkü-Tuanna-Kara
+
 
 Ülkü Tuanna Kara 
 
@@ -246,3 +274,52 @@ aşamaları modellenmiştir.
 Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşamalarına temel oluşturmak amacıyla hazırlanmıştır.
 
 ![Veri Akış Diyagramı](VeriAkısDiyagrami.png)
+=======
+ Binnur-Aslan
+
+
+Binnur Aslan:
+
+[UI/UX Wireframe Tasarımı](./uiuxwireframetasarimi.pdf)
+=======
+
+Selahattin-Ali-Kılıç
+
+Teknoloji Seçimi Detaylı Analizi ve Uygulama Planı
+
+Maliyet Analizi: Projede değerlendirilen Python, TensorFlow, MQTT, PostgreSQL ve React teknolojilerinin tamamı açık kaynaklıdır. Bu nedenle lisans maliyeti oluşturmamaktadır. Yazılım tarafında ek lisans gideri gerektirmemesi, proje bütçesi açısından önemli bir avantaj sağlamaktadır. Altyapı maliyeti daha çok sensör, sunucu ve ağ bileşenlerinden oluşacak olsa da teknoloji seçimi açısından düşük maliyetli bir yapı ortaya çıkmaktadır.
+
+Performans Analizi: MQTT, düşük bant genişliği kullanarak sensör verilerinin hızlı ve düşük gecikmeli şekilde iletilmesini sağlamaktadır. Python, backend tarafında veri işleme ve sistem mantığının yürütülmesi için yeterli performans sunmaktadır. TensorFlow, sensör verileri üzerinden tahmin ve analiz işlemlerinin gerçekleştirilmesinde güçlü bir yapı sağlamaktadır. PostgreSQL, verilerin güvenilir biçimde saklanması ve sorgulanması için uygun performansa sahiptir. React ise kullanıcı arayüzünde dinamik veri gösterimi açısından yeterli ve verimli bir çözüm sunmaktadır.
+
+Uyumluluk Analizi: Seçilen teknolojiler birbirleriyle yüksek uyumluluk göstermektedir. Python backend sistemi TensorFlow ile doğrudan entegre çalışabilmektedir. MQTT üzerinden alınan sensör verileri Python tarafından işlenip PostgreSQL veritabanına kaydedilebilmektedir. React arayüzü ise backend tarafından sunulan API servisleri ile iletişim kurarak verileri kullanıcıya aktarabilmektedir. Bu durum sistemin katmanları arasında düzenli ve sürdürülebilir bir entegrasyon sağlamaktadır.
+
+Teknoloji Seçimi: Yapılan maliyet, performans ve uyumluluk analizleri sonucunda proje için en uygun teknoloji yığını; backend için Python, makine öğrenmesi için TensorFlow, sensör veri iletişimi için MQTT, veritabanı için PostgreSQL ve kullanıcı arayüzü için React olarak belirlenmiştir.
+
+Uygulama Planı: Sistem içerisinde sensörlerden elde edilen veriler öncelikle MQTT protokolü ile backend katmanına iletilecektir. Python tabanlı backend yapısı bu verileri alacak, işleyecek ve gerekli doğrulama adımlarından geçirecektir. Ardından veriler PostgreSQL veritabanında saklanacaktır. Biriken veriler TensorFlow kullanılarak analiz edilecek ve sulama önerisi, bitki stres analizi, hastalık riski ve verim tahmini gibi çıktılar üretilecektir. Son aşamada tüm veriler ve analiz sonuçları React tabanlı web arayüzü üzerinden kullanıcıya grafikler, bildirimler ve durum ekranları şeklinde sunulacaktır.
+
+
+
+Ömer Akhan:
+ Akıllı Tarım Yönetim Sistemi projesinin geliştirme sürecine başlanabilmesi için gerekli olan geliştirme ortamı hazırlanmıştır.
+
+Öncelikle proje gereksinimleri doğrultusunda kullanılacak teknolojiler belirlenmiş ve kurulmuştur. Bu kapsamda Python ve TensorFlow makine öğrenimi geliştirmeleri için, PostgreSQL veritabanı işlemleri için, MQTT veri iletişimi için ve React ile Node.js web arayüzü geliştirme süreci için kurulmuştur.
+
+Kurulumların ardından proje için temel klasör yapısı oluşturulmuş, backend ve frontend bileşenleri ayrıştırılmış ve gerekli bağımlılıklar yüklenmiştir. Ayrıca proje yapılandırmaları tamamlanarak sistem çalışmaya hazır hale getirilmiştir.
+
+Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitignore dosyası oluşturulmuş ve ilk commit işlemi gerçekleştirilmiştir.
+
+Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.## 📝 Yapılan Çalışmalar (Ortam Kurulumu)
+
+Bu görev kapsamında, Akıllı Tarım Yönetim Sistemi projesinin geliştirme sürecine başlanabilmesi için gerekli olan geliştirme ortamı hazırlanmıştır.
+
+Öncelikle proje gereksinimleri doğrultusunda kullanılacak teknolojiler belirlenmiş ve kurulmuştur. Bu kapsamda Python ve TensorFlow makine öğrenimi geliştirmeleri için, PostgreSQL veritabanı işlemleri için, MQTT veri iletişimi için ve React ile Node.js web arayüzü geliştirme süreci için kurulmuştur.
+
+Kurulumların ardından proje için temel klasör yapısı oluşturulmuş, backend ve frontend bileşenleri ayrıştırılmış ve gerekli bağımlılıklar yüklenmiştir. Ayrıca proje yapılandırmaları tamamlanarak sistem çalışmaya hazır hale getirilmiştir.
+
+Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitignore dosyası oluşturulmuş ve ilk commit işlemi gerçekleştirilmiştir.
+
+Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
+ 
+
+
+
