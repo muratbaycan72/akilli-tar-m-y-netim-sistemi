@@ -255,6 +255,13 @@ Yapılan araştırmalar sonucunda bu proje için aşağıdaki teknoloji yığın
  Web Arayüzü → React 
 Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kullanıcıya sunulması için 
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
+ Binnur-Aslan
+
+
+Binnur Aslan:
+
+[UI/UX Wireframe Tasarımı](./uiuxwireframetasarimi.pdf)
+=======
 
 Selahattin-Ali-Kılıç
 
@@ -293,4 +300,5 @@ Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitign
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
  
+
 
