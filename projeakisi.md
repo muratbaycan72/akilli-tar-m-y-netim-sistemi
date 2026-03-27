@@ -255,6 +255,26 @@ Yapılan araştırmalar sonucunda bu proje için aşağıdaki teknoloji yığın
  Web Arayüzü → React 
 Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kullanıcıya sunulması için 
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
+ Ülkü-Tuanna-Kara
+
+
+Ülkü Tuanna Kara 
+
+Bu diyagram, sistem analiz sürecinde elde edilen gereksinimler doğrultusunda hazırlanmıştır. Amaç, sistemdeki veri akışını, süreçleri ve bileşenler arasındaki etkileşimi görsel olarak göstermektir.
+
+Diyagramda:
+
+* Sensörlerden ve dış kaynaklardan (örneğin hava durumu verileri) alınan verilerin sisteme girişi,
+* Bu verilerin toplanması ve veritabanında saklanması,
+* Analiz süreçlerinden geçirilerek anlamlı hale getirilmesi,
+* Elde edilen sonuçların kullanıcıya (çiftçi/yönetici) sunulması
+
+aşamaları modellenmiştir.
+
+Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşamalarına temel oluşturmak amacıyla hazırlanmıştır.
+
+![Veri Akış Diyagramı](VeriAkısDiyagrami.png)
+=======
  Binnur-Aslan
 
 
@@ -300,5 +320,6 @@ Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitign
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
  
+
 
 
