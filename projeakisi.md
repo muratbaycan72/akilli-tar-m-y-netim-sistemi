@@ -280,10 +280,6 @@ Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşam
  [UI/UX Tel Çerçeve Tasarımı](Akilli_Tarim/docs/uiuxwireframetasarimi.pdf)
 
 
-Binnur Aslan:
-
-[UI/UX Wireframe Tasarımı](./uiuxwireframetasarimi.pdf)
-=======
 
 Selahattin-Ali-Kılıç
 
