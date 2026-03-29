@@ -273,7 +273,7 @@ aşamaları modellenmiştir.
 
 Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşamalarına temel oluşturmak amacıyla hazırlanmıştır.
 
-![Veri Akış Diyagramı](VeriAkısDiyagrami.png)
+![Veri Akış Diyagramı](Akilli_Tarim/docs/VeriAkısDiyagrami.png)
 =======
  Binnur-Aslan
 
