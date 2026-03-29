@@ -325,6 +325,6 @@ Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik a
 - Proje için veritabanı mimarisi belirlenmiştir
 - Sistem için gerekli tablolar ve ilişkiler tasarlanmıştır
 
-[Veri Tabanı Mimarisi Tasarımı](./veritabanimimarisitasarimi.pdf)
+[Veri Tabanı Mimarisi Tasarımı](Akilli_Tarim/docs/veritabanmimarisitasarimi.pdf)
 
 
