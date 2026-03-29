@@ -277,6 +277,8 @@ Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşam
 =======
  Binnur-Aslan
 
+ [UI/UX Tel Çerçeve Tasarımı](Akilli_Tarim/docs/uiuxwireframetasarimi.pdf)
+
 
 Binnur Aslan:
 
