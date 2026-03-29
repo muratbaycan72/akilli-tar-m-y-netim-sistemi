@@ -320,6 +320,11 @@ Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitign
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
  
+Ülkü Tuanna Kara:
 
+- Proje için veritabanı mimarisi belirlenmiştir
+- Sistem için gerekli tablolar ve ilişkiler tasarlanmıştır
+
+[Veri Tabanı Mimarisi Tasarımı](./veritabanimimarisitasarimi.pdf)
 
 
