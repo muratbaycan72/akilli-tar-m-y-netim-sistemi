@@ -326,3 +326,19 @@ Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik a
 [Veri Tabanı Mimarisi Tasarımı](Akilli_Tarim/docs/veritabanmimarisitasarimi.pdf)
 
 
+Selahattin Ali Kılıç:
+
+Bu çalışma, akıllı tarım sisteminden toplanan sensör verilerinin (Nem ve Sıcaklık) kullanıcıya görsel olarak sunulması amacıyla hazırlanmıştır. Amaç, karmaşık sensör verilerini anlamlı grafiklere dönüştürerek çiftçi ve yöneticilerin hızlı karar vermesini sağlamaktır.
+
+Grafik Arayüzünde:
+
+* Toprak nemi verilerinin zaman serisi (Line Chart) üzerinden anlık takibi,
+* Hava sıcaklığı değişimlerinin karşılaştırmalı (Bar Chart) olarak sunulması,
+* Verilerin analiz edilerek kullanıcı dostu bir dashboard üzerinde modellenmesi,
+* Mobil ve web uyumlu responsive tasarım aşamaları tamamlanmıştır.
+
+Bu çalışma, sistemin veri izleme katmanını oluşturmak ve kullanıcı arayüzünü geliştirmek amacıyla hazırlanmıştır.
+
+![Sensör Veri Paneli](sensor-grafik.png)
+=======
+
