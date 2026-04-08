@@ -325,6 +325,119 @@ Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik a
 
 [Veri Tabanı Mimarisi Tasarımı](Akilli_Tarim/docs/veritabanmimarisitasarimi.pdf)
 
+Ülkü Tuanna Kara:
+
+Bu çalışmada, toprak nemi tahmini için Linear Regression  algoritması kullanılmıştır. Sensörlerden elde edilen veriler (toprak nemi, hava sıcaklığı, hava nemi vb.) kullanılarak model eğitilmiş ve tahmin doğruluğu değerlendirilmiştir. 
+
+  2. KULLANILAN YÖNTEM 
+Algoritma: Linear Regression 
+
+  
+Kullanılan veriler: 
+
+- Sıcaklık (°C) 
+
+- Hava Nemi (%) 
+
+- Toprak Nemi (%) 
+
+  
+3. MODEL GELİŞTİRME KODU 
+
+  
+import pandas as pd 
+
+from sklearn.model_selection import train_test_split 
+
+from sklearn.linear_model import LinearRegression 
+
+from sklearn.metrics import mean_absolute_error, r2_score 
+
+  
+data = { 
+
+    "sicaklik": [20, 22, 25, 30, 28, 24, 26], 
+
+    "hava_nemi": [60, 65, 70, 50, 55, 68, 72], 
+
+    "toprak_nemi": [30, 35, 40, 20, 25, 38, 42] 
+
+} 
+
+  df = pd.DataFrame(data) 
+
+  X = df[["sicaklik", "hava_nemi"]] 
+
+y = df["toprak_nemi"] 
+
+ 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42) 
+
+model = LinearRegression() 
+
+model.fit(X_train, y_train) 
+
+y_pred = model.predict(X_test) 
+
+mae = mean_absolute_error(y_test, y_pred) 
+
+r2 = r2_score(y_test, y_pred) 
+
+print("Tahminler:", y_pred) 
+
+print("Gerçek Değerler:", y_test.values) 
+
+print("MAE:", mae) 
+
+print("R2 Skoru:", r2) 
+
+  
+4. SONUÇLAR 
+
+- Model başarıyla eğitilmiştir. 
+
+- Tahmin edilen değerler gerçek değerlere yakın çıkmıştır. 
+
+- MAE değeri düşük olup modelin hata oranı azdır. 
+
+- R2 skoru modelin başarılı olduğunu göstermektedir. 
+
+  
+5. YAPILAN İŞLEMLER 
+
+- Sensör verileri örnek olarak oluşturuldu 
+
+- Veriler pandas ile tablo haline getirildi 
+
+- Giriş ve çıkış değişkenleri belirlendi 
+
+- Veri eğitim ve test olarak ayrıldı 
+
+- Linear Regression modeli oluşturuldu 
+
+- Model eğitildi ve test edildi 
+
+- Performans metrikleri hesaplandı 
+
+  
+6. İYİLEŞTİRME ÖNERİLERİ 
+
+- Daha fazla veri ile model geliştirilebilir 
+
+- Gerçek sensör verileri kullanılabilir 
+
+- Farklı algoritmalar denenebilir (Random Forest, Decision Tree) 
+
+- Toprak tipi ve yağış miktarı gibi yeni özellikler eklenebilir 
+
+- Veri temizleme ve normalizasyon yapılabilir 
+
+  
+
+GENEL DEĞERLENDİRME 
+
+Bu çalışmada Linear Regression algoritması kullanılarak toprak nemi tahmini gerçekleştirilmiş ve modelin performansı değerlendirilmiştir. 
+
 
 Selahattin Ali Kılıç:
 
