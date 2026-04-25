@@ -39,8 +39,8 @@ Bu hafta ağırlıklı olarak şu 4 temel konuya odaklanıyoruz:
 *Not: Lütfen kodları yazarken Python standartlarına (PEP 8) uymaya özen gösterelim ve commit mesajlarımızı açıklayıcı yazalım.*
 
 ### Uygulama Arayüz Ekranları
-![Ana Sayfa](docs/ana_sayfa.png.png)
-![Sera Kontrol](docs/sera_kontrol.png.png)
+![Ana Sayfa](Akilli_Tarim/docs/ana_sayfa.png.png)
+![Sera Kontrol](Akilli_Tarim/docs/sera_kontrol.png.png)
 
 Ülkü Tuanna Kara : 
 Proje konusu ve kapsamı:
