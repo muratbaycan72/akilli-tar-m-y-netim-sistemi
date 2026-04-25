@@ -38,6 +38,10 @@ Bu hafta ağırlıklı olarak şu 4 temel konuya odaklanıyoruz:
 
 *Not: Lütfen kodları yazarken Python standartlarına (PEP 8) uymaya özen gösterelim ve commit mesajlarımızı açıklayıcı yazalım.*
 
+### Uygulama Arayüz Ekranları
+![Ana Sayfa](docs/ana_sayfa.png.png)
+![Sera Kontrol](docs/sera_kontrol.png.png)
+
 Ülkü Tuanna Kara : 
 Proje konusu ve kapsamı:
 Günümüzde tarım sektöründe su kaynaklarının verimli kullanılması, ürün veriminin artırılması ve çevresel etkilerin azaltılması büyük önem taşımaktadır. Akıllı Tarım Yönetim Sistemi, sensör verileri ve makine öğrenmesi teknolojilerini kullanarak tarımsal üretim süreçlerini daha verimli, sürdürülebilir ve otomatik hale getirmeyi amaçlayan bir yazılım sistemidir. Bu proje,  bahsedilen problemlere teknolojik çözümler sunmayı hedeflemektedir. 
