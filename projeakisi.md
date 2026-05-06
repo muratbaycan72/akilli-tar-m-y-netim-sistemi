@@ -309,3 +309,19 @@ Aşama 4: Yayına Alma ve Entegrasyon
 Cihaz Uyumluluğu: Modeller, düşük donanımlı sistemlerde (uç cihazlar) çalışabilmesi için TensorFlow Lite (.tflite) formatına sıkıştırılacak.
 
 Arayüz Bağlantısı: ML modellerinden çıkan tahmin sonuçları, geliştirdiğimiz React dashboard ekranına bir API üzerinden dinamik olarak yansıtılacak.
+
+Selahattin Ali Kılıç:
+
+Bu çalışma, Akıllı Tarım Yönetim Sistemi'ne entegre edilen Makine Öğrenimi (ML) modellerinin sistem mimarisi içerisindeki veri akışını ve iletişim protokollerini tanımlamak amacıyla hazırlanmıştır. Amaç, sensörlerden gelen ham verilerin analiz edilip anlamlı tahminlere dönüşme sürecini standartlaştırmaktır.
+
+**Entegrasyon Tasarımında:**
+
+* **Hibrit İletişim Protokolü:** Anlık sensör verileri için **MQTT**, görsel analiz ve tahmin servisleri için **REST API** yapısı kurgulanmıştır.
+* **Veri İşleme Hattı:** Toprak nemi (LSTM) ve bitki sağlığı (CNN) modelleri için JSON formatında standart giriş/çıkış veri yapıları tanımlanmıştır.
+* **Veritabanı Entegrasyonu:** Üretilen tahmin sonuçlarının geçmişe dönük izlenebilirliği için **ML_RESULTS** veritabanı şeması oluşturulmuştur.
+* **Uçtan Uca Akış:** Verinin sensörden başlayıp bulut tabanlı işleme katmanına, oradan da kullanıcı panelindeki "Akıllı Tahmin" kartlarına aktarımı şemalandırılmıştır.
+
+Bu çalışma, sistemin karar destek mekanizmasını kurmak ve yapay zeka çıktılarını kullanıcı arayüzüyle buluşturmak amacıyla hazırlanmıştır.
+
+![Makine Öğrenimi Entegrasyon Mimarisi](ml-integration-flow.png)
+=======
