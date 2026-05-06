@@ -323,5 +323,5 @@ Bu çalışma, Akıllı Tarım Yönetim Sistemi'ne entegre edilen Makine Öğren
 
 Bu çalışma, sistemin karar destek mekanizmasını kurmak ve yapay zeka çıktılarını kullanıcı arayüzüyle buluşturmak amacıyla hazırlanmıştır.
 
-![Makine Öğrenimi Entegrasyon Mimarisi](ml-integration-flow.png)
+![ML Akışı](Akilli_Tarim/docs/ml-integration-flow.png)
 =======
