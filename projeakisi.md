@@ -459,3 +459,47 @@ Bu çalışma, sistemin veri izleme katmanını oluşturmak ve kullanıcı aray�
 ![Sensör Veri Paneli](sensor-grafik.png)
 =======
 
+Selahattin Ali Kılıç:
+
+Makine Öğrenimi (ML) Teknik Uygulama Yol Haritası
+Aşama 1: Veri Hattının (Data Pipeline) Kurulması
+Sensör Veri Temizliği: Toprak nemi ve sıcaklık verileri pandas ile işlenerek eksik veriler doldurulacak ve LSTM modeline girdi sağlamak için normalize (Min-Max Scaling) edilecek.
+
+Görüntü Çoğaltma: Hastalık tespiti veri seti, TensorFlow ImageDataGenerator kullanılarak (döndürme, parlaklık vb.) zenginleştirilecek (Data Augmentation).
+
+Performanslı Depolama: İşlenen tüm veriler, eğitim sırasında RAM'i yormamak için tf.data.Dataset formatına dönüştürülecek.
+
+Aşama 2: Model Mimarilerinin Tasarımı
+Nem Tahmini (LSTM): Zaman serisi verilerini analiz etmek için 2 katmanlı LSTM kurulacak ve ezberlemeyi (overfitting) önlemek için Dropout katmanları kullanılacak.
+
+Hastalık Tespiti (CNN): Kaynakları tasarruflu kullanmak için MobileNetV2 üzerine Transfer Learning uygulanarak bitki sağlığı analiz modeli oluşturulacak.
+
+Bölge Analizi (K-Means): Tarladaki verim farklarını anlamak için veriler 4 ana kümede gruplandırılacak.
+
+Aşama 3: Model Eğitimi ve Metrik Optimizasyonu
+Optimizasyon: Modellerin eğitiminde Adam algoritması kullanılacak.
+
+Kritik Değerlendirme: Başarı kriteri olarak sadece basit doğruluk oranı değil; F1-Score ve MAE (Hata Payı) metrikleri takip edilecek.
+
+Hiperparametre Ayarı: Performansı artırmak için öğrenme oranı (Learning Rate) ve batch size değerleri optimize edilecek.
+
+Aşama 4: Yayına Alma ve Entegrasyon
+Cihaz Uyumluluğu: Modeller, düşük donanımlı sistemlerde (uç cihazlar) çalışabilmesi için TensorFlow Lite (.tflite) formatına sıkıştırılacak.
+
+Arayüz Bağlantısı: ML modellerinden çıkan tahmin sonuçları, geliştirdiğimiz React dashboard ekranına bir API üzerinden dinamik olarak yansıtılacak.
+
+Selahattin Ali Kılıç:
+
+Bu çalışma, Akıllı Tarım Yönetim Sistemi'ne entegre edilen Makine Öğrenimi (ML) modellerinin sistem mimarisi içerisindeki veri akışını ve iletişim protokollerini tanımlamak amacıyla hazırlanmıştır. Amaç, sensörlerden gelen ham verilerin analiz edilip anlamlı tahminlere dönüşme sürecini standartlaştırmaktır.
+
+**Entegrasyon Tasarımında:**
+
+* **Hibrit İletişim Protokolü:** Anlık sensör verileri için **MQTT**, görsel analiz ve tahmin servisleri için **REST API** yapısı kurgulanmıştır.
+* **Veri İşleme Hattı:** Toprak nemi (LSTM) ve bitki sağlığı (CNN) modelleri için JSON formatında standart giriş/çıkış veri yapıları tanımlanmıştır.
+* **Veritabanı Entegrasyonu:** Üretilen tahmin sonuçlarının geçmişe dönük izlenebilirliği için **ML_RESULTS** veritabanı şeması oluşturulmuştur.
+* **Uçtan Uca Akış:** Verinin sensörden başlayıp bulut tabanlı işleme katmanına, oradan da kullanıcı panelindeki "Akıllı Tahmin" kartlarına aktarımı şemalandırılmıştır.
+
+Bu çalışma, sistemin karar destek mekanizmasını kurmak ve yapay zeka çıktılarını kullanıcı arayüzüyle buluşturmak amacıyla hazırlanmıştır.
+
+![Makine Öğrenimi Entegrasyon Mimarisi](ml-integration-flow.png)
+=======
