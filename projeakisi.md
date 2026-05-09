@@ -300,5 +300,7 @@ Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitign
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
  
+Binnur Aslan:
 
+![VeritabanıERDdraw.io](docs/veritabanıERD.png)
 
