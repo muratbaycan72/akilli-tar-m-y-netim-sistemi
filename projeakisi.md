@@ -322,6 +322,11 @@ Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitign
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
  
+ Binnur-Aslan
+Binnur Aslan:
+
+![VeritabanıERDdraw.io](docs/veritabanıERD.png)
+=======
 Ülkü Tuanna Kara:
 
 - Proje için veritabanı mimarisi belirlenmiştir
@@ -403,6 +408,7 @@ print("R2 Skoru:", r2)
 - Tahmin edilen değerler gerçek değerlere yakın çıkmıştır. 
 
 - MAE değeri düşük olup modelin hata oranı azdır. 
+main
 
 - R2 skoru modelin başarılı olduğunu göstermektedir. 
 
@@ -502,4 +508,3 @@ Bu çalışma, Akıllı Tarım Yönetim Sistemi'ne entegre edilen Makine Öğren
 Bu çalışma, sistemin karar destek mekanizmasını kurmak ve yapay zeka çıktılarını kullanıcı arayüzüyle buluşturmak amacıyla hazırlanmıştır.
 
 ![ML Akışı](Akilli_Tarim/docs/ml-integration-flow.png)
-=======
