@@ -508,3 +508,35 @@ Bu çalışma, Akıllı Tarım Yönetim Sistemi'ne entegre edilen Makine Öğren
 Bu çalışma, sistemin karar destek mekanizmasını kurmak ve yapay zeka çıktılarını kullanıcı arayüzüyle buluşturmak amacıyla hazırlanmıştır.
 
 ![ML Akışı](Akilli_Tarim/docs/ml-integration-flow.png)
+
+## Dokümantasyon
+
+Ülkü Tuanna Kara: 
+
+## MQTT Haberleşme Protokolü Entegrasyon Planı 
+
+Proje kapsamında Akıllı Tarım Yönetim Sistemi’ne MQTT tabanlı IoT haberleşme altyapısı entegre edilmiştir. Bu yapı sayesinde tarla ve sera ortamlarında bulunan sensörlerden alınan veriler gerçek zamanlı olarak sisteme aktarılabilmektedir.
+
+### Entegrasyonun Sağladığı Özellikler
+
+- Toprak nemi, sıcaklık, hava nemi, pH ve EC verilerinin anlık alınması
+- MQTT protokolü ile düşük gecikmeli veri iletişimi
+- Mosquitto broker kullanılarak güvenli veri aktarımı
+- TLS destekli şifreli bağlantı altyapısı
+- PostgreSQL veritabanına otomatik veri kaydı
+- Anomali tespiti ve kritik durum bildirim sistemi
+- TensorFlow destekli makine öğrenmesi tahminlerinin tetiklenmesi
+- React dashboard üzerinde canlı veri görselleştirme
+
+### Kullanılan Teknolojiler
+
+- MQTT
+- Eclipse Mosquitto
+- Python (paho-mqtt)
+- PostgreSQL
+- FastAPI
+- TensorFlow
+- React
+- Docker
+
+![MQTT Entegrasyon Planı](MQTT_Entegrasyon_Plani.docx)
