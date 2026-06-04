@@ -1,11 +1,10 @@
 import { createServerFn } from "@tanstack/react-start";
 import { createClient } from "@supabase/supabase-js";
 
-// Şifreleri sildik, GitHub hata vermesin diye boş bıraktık
-const supabaseUrl = process.env.SUPABASE_URL || "";
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
+const supabaseUrl = "https://oimtnvybgdseeqgzprxh.supabase.co";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9pbXRudnliZ2RzZWVxZ3pwcnhoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA1ODcyMjcsImV4cCI6MjA5NjE2MzIyN30.0JzPzA--jgZbHCXAqOdgRFHOEerSD2XNiqNnAvfrjis";
 
-const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey);
+const supabaseAdmin = createClient(supabaseUrl, supabaseKey);
 
 export type SensorReading = {
   t: string;
@@ -56,9 +55,8 @@ export const getLatestSensorData = createServerFn({ method: "GET" }).handler(
         source: "db",
       };
     } catch (error) {
-      const message = error instanceof Error ? error.message : "Bilinmeyen hata";
-      console.error("getLatestSensorData failed:", message);
-      return { latest: null, series: [], source: "error", error: message };
+      console.error("Supabase bağlantı hatası:", error);
+      return { latest: null, series: [], source: "error" };
     }
   }
 );
