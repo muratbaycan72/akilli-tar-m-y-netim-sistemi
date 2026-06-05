@@ -2,7 +2,9 @@
   command = "npm run build"
   publish = "dist"
 
+# Lovable SSR projeleri için Netlify yönlendirmesi
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = true
