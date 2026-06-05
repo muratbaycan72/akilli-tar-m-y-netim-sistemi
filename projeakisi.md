@@ -43,7 +43,7 @@ Bu hafta ağırlıklı olarak şu 4 temel konuya odaklanıyoruz:
 ![Ana Sayfa](Akilli_Tarim/docs/ana_sayfa.png.png)
 ![Sera Kontrol](Akilli_Tarim/docs/sera_kontrol.png.png)
 
-ca8303a74ae8831aa9c556641ea93edbce8429aa
+
 
 Ülkü Tuanna Kara : 
 Proje konusu ve kapsamı:
@@ -289,7 +289,7 @@ Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşam
 
 
 =======
->>>>>>> ca8303a74ae8831aa9c556641ea93edbce8429aa
+>>>>>>> 
 
 Selahattin-Ali-Kılıç
 
@@ -521,4 +521,4 @@ Bu çalışma, sistemin karar destek mekanizmasını kurmak ve yapay zeka çıkt
 
 
 
->>>>>>> ca8303a74ae8831aa9c556641ea93edbce8429aa
+>>>>>>> 
