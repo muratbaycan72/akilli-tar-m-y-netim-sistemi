@@ -38,9 +38,12 @@ Bu hafta ağırlıklı olarak şu 4 temel konuya odaklanıyoruz:
 
 *Not: Lütfen kodları yazarken Python standartlarına (PEP 8) uymaya özen gösterelim ve commit mesajlarımızı açıklayıcı yazalım.*
 
+
 ### Uygulama Arayüz Ekranları
 ![Ana Sayfa](Akilli_Tarim/docs/ana_sayfa.png.png)
 ![Sera Kontrol](Akilli_Tarim/docs/sera_kontrol.png.png)
+
+ca8303a74ae8831aa9c556641ea93edbce8429aa
 
 Ülkü Tuanna Kara : 
 Proje konusu ve kapsamı:
@@ -259,6 +262,7 @@ Yapılan araştırmalar sonucunda bu proje için aşağıdaki teknoloji yığın
  Web Arayüzü → React 
 Bu teknoloji yığını sensör verilerinin toplanması, analiz edilmesi ve kullanıcıya sunulması için 
 ölçeklenebilir ve sürdürülebilir bir altyapı sağlayacaktır.
+<<<<<<< HEAD
  Ülkü-Tuanna-Kara
 
 
@@ -284,6 +288,8 @@ Bu çalışma, sistemin genel yapısını anlamak ve ilerleyen geliştirme aşam
  [UI/UX Tel Çerçeve Tasarımı](Akilli_Tarim/docs/uiuxwireframetasarimi.pdf)
 
 
+=======
+>>>>>>> ca8303a74ae8831aa9c556641ea93edbce8429aa
 
 Selahattin-Ali-Kılıç
 
@@ -321,6 +327,7 @@ Kurulumların ardından proje için temel klasör yapısı oluşturulmuş, backe
 Versiyon kontrolü için Git kullanılarak proje deposu başlatılmış, .gitignore dosyası oluşturulmuş ve ilk commit işlemi gerçekleştirilmiştir.
 
 Sonuç olarak, projenin geliştirilmesine başlanabilecek şekilde tüm teknik altyapı eksiksiz olarak hazırlanmıştır.
+<<<<<<< HEAD
  
  Binnur-Aslan
 Binnur Aslan:
@@ -508,3 +515,10 @@ Bu çalışma, Akıllı Tarım Yönetim Sistemi'ne entegre edilen Makine Öğren
 Bu çalışma, sistemin karar destek mekanizmasını kurmak ve yapay zeka çıktılarını kullanıcı arayüzüyle buluşturmak amacıyla hazırlanmıştır.
 
 ![ML Akışı](Akilli_Tarim/docs/ml-integration-flow.png)
+=======
+
+
+
+
+
+>>>>>>> ca8303a74ae8831aa9c556641ea93edbce8429aa
