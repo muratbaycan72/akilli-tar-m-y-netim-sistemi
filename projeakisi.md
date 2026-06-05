@@ -337,3 +337,4 @@ client.publish("tarim/sensor/test", '{"nem": 45, "sicaklik": 22}')
 # Verinin geri gelmesini beklemek için programı açık tutalım
 time.sleep(10)
 client.loop_stop().  
+
