@@ -16,4 +16,4 @@ Akıllı Tarım Yönetim Sistemi, tarımsal faaliyetlerde verimliliği artırmak
 * **Geliştirici:** Selahattin Ali Kılıç
 * **Geliştirici:** Ülkü Tuana Kara
 
-ca8303a74ae8831aa9c556641ea93edbce8429aa
+
