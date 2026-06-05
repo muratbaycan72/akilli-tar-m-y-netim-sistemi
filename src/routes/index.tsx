@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { getLatestSensorData } from '../../lib/sensors.functions';
+import { getLatestSensorData } from '../lib/sensors.functions';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 export const Route = createFileRoute('/')({
@@ -9,22 +9,19 @@ export const Route = createFileRoute('/')({
 
 function Dashboard() {
   const data = Route.useLoaderData();
-
-  if (data.source === 'error') return <div>Veri çekme hatası!</div>;
-  if (data.source === 'empty') return <div>Veri yok.</div>;
+  if (data.source !== 'db') return <div>Veri yükleniyor veya hata oluştu...</div>;
 
   return (
-    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+    <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto', fontFamily: 'sans-serif' }}>
       <h1>AgriMind Panel</h1>
-      {/* Basit bir kart */}
-      <div style={{ display: 'flex', gap: '20px', marginBottom: '20px' }}>
-        <div style={{ border: '1px solid #ccc', padding: '10px' }}>
-          <h3>Sıcaklık</h3>
-          <p>{data.latest?.temp}°C</p>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '2rem' }}>
+        <div style={{ padding: '1rem', background: '#f3f4f6', borderRadius: '8px' }}>
+          <h3>Sıcaklık: {data.latest?.temp}°C</h3>
+        </div>
+        <div style={{ padding: '1rem', background: '#f3f4f6', borderRadius: '8px' }}>
+          <h3>Nem: {data.latest?.hum}%</h3>
         </div>
       </div>
-      
-      {/* Grafik */}
       <div style={{ height: '300px', width: '100%' }}>
         <ResponsiveContainer>
           <LineChart data={data.series}>
@@ -32,7 +29,8 @@ function Dashboard() {
             <XAxis dataKey="t" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="temp" stroke="#8884d8" />
+            <Line type="monotone" dataKey="temp" stroke="#ef4444" name="Sıcaklık" />
+            <Line type="monotone" dataKey="hum" stroke="#3b82f6" name="Nem" />
           </LineChart>
         </ResponsiveContainer>
       </div>
