@@ -1,0 +1,6 @@
+mqtt:
+  broker_host: localhost
+  broker_port: 1883
+  client_id: akilli_tarim_iot
+  keepalive: 60
+  qos: 1

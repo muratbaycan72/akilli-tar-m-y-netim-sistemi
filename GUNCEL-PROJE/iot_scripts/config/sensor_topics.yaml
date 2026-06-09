@@ -1,0 +1,10 @@
+topic_prefix: akilli-tarim
+
+topics:
+  soil_moisture: "{prefix}/{field_id}/sensors/soil_moisture"
+  temperature: "{prefix}/{field_id}/sensors/temperature"
+  humidity: "{prefix}/{field_id}/sensors/humidity"
+  plant_health: "{prefix}/{field_id}/sensors/plant_health"
+  irrigation_command: "{prefix}/{field_id}/commands/irrigation"
+
+default_field_id: "field-001"

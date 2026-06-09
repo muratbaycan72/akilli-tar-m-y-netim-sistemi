@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Akıllı Tarım",
+    "slug": "akilli-tarim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1b4332"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.akillitarim.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1b4332"
+      },
+      "package": "com.akillitarim.app"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#2d6a4f"
+        }
+      ]
+    ]
+  }
+}
